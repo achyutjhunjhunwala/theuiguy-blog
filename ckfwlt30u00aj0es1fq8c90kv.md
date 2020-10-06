@@ -1,10 +1,10 @@
 ## Nest JS: Caching Service Methods with Custom Decorators
 
-After searching the internet for a long and checking with the Nest JS community, I realized there is no out of the box solution available to provide Caching/Memoisation capabilities to Service level methods in Nest JS. So I decided to build one.
+After searching the internet for a long time and checking with the Nest JS community, I realised that there is no out of the box solution available to provide Caching/Memoization capabilities to Service level methods in Nest JS. So I decided to build one.
 
 ## **Problem Statement**
 
-Nest JS provided decorators out of the box that can be plugged into the Controller Methods and hence caching can be achieved for a particular route. What about the situation where we want to cache the output of a service method that makes an API call or a DB query.
+Nest JS provides decorators out of the box that can be plugged into the Controller Methods and hence caching can be achieved for a particular route. What about the situation where we want to cache the output of a service method that makes an API call or a DB query.
 
 ## ** Custom Cache Decorator as a Solution**
 
